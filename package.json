@@ -1,0 +1,29 @@
+{
+  "name": "mini-url-api",
+  "version": "1.0.0",
+  "description": "freeCodeCamp url shortener microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninja-1/mini-url-api.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "header"
+  ],
+  "author": "ninja-1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ninja-1/mini-url-api/issues"
+  },
+  "homepage": "https://github.com/Ninja-1/mini-url-api#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.12",
+    "shortid": "^2.2.6",
+    "validator": "^6.2.0"
+  }
+}
